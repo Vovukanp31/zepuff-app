@@ -10,7 +10,8 @@ module.exports = {
         'mainPurple': '#7747FF',
         'mainMagenta': '#FF4E8D',
         'mainYellow': '#FFE600',
-        'additionalTextGray': '#404040'
+        'additionalTextGray': '#404040',
+        'additionalpurple': '#7747FF80'
       },
     },
   },

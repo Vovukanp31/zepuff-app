@@ -46,7 +46,7 @@ const Home = () => {
                 </p>}
             </section>
 
-            <Input label='input' type='email'/>
+            <Input label='input' type='text' />
 
         </div> 
         );
