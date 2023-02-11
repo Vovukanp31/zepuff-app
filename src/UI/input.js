@@ -2,16 +2,16 @@ import React from 'react';
 
 const Input = ({label, type, name, value, onChange}) => {
     return (
-<div class="relative">
+<div className="relative">
     <input 
      type={type}
      name={name}
      value={value}
      onChange={onChange}
      id="floating_filled"
-     className="block rounded-md p-4 w-full text-mainPurple bg-white border-2 border-additionalpurple appearance-none focus:outline-none focus:ring-0 focus:text-black peer"
+     className="block rounded-md p-4 w-full text-mainPurple bg-white border-2 border-additionalpurple appearance-none focus:outline-none focus:ring-0 focus:text-black caret-mainPurple peer"
      placeholder=' '
-    /> {/*focus:border-blue-600*/}
+    /> {/*focus:border-blue-600*/ /* chang border color on focus*/}
 
     <label 
      for="floating_filled" 
